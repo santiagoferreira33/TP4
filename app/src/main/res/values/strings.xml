@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TP4</string>
+    <string name="aceite">ACEITE GIRASOL</string>
+    <string name="aceite_valor">884 cal c/100g; 100g Grasas; 0g de HC; 0g Proteínas</string>
+    <string name="acelga">ACELGA</string>
+    <string name="acelga_valor">20 cal c/100g; 0,1g Grasas; 4,1g de HC; 1,9g Proteínas</string>
+    <string name="arroz">ARROZ</string>
+    <string name="arroz_valor">130 cal c/100g; 0,3g Grasas; 28,2g de HC; 2,7g Proteínas</string>
+    <string name="azucar">AZÚCAR</string>
+    <string name="azucar_valor">387 cal c/100g; 0g Grasas; 100g de HC; 0g Proteínas</string>
+    <string name="cacao">CACAO POLVO</string>
+    <string name="cacao_valor">357 cal c/100g; 24g Grasas; 11g de HC; 20g Proteínas</string>
+    <string name="calabaza">CALABAZA</string>
+    <string name="calabaza_valor">15 cal c/100g; 0g Grasas; 3g de HC; 1g Proteínas</string>
+    <string name="cerdo">CARNE DE CERDO</string>
+    <string name="cerdo_valor">147 cal c/100g; 7g Grasas; 3g de HC; 21g Proteínas</string>
+    <string name="vaca">CARNE DE VACA</string>
+    <string name="vaca_valor">147 cal c/100g; 7g Grasas; 3g de HC; 21g Proteínas</string>
+    <string name="cerveza">CERVEZA</string>
+    <string name="cerveza_valor">28 cal c/100g; 3g Grasas; 0g de HC; 0g Proteínas</string>
+    <string name="hamburguesa">HAMBURGESA</string>
+    <string name="hamburguesa_valor">265 cal c/100g; 20g Grasas; 0g de HC; 15g Proteínas</string>
+    <string name="leche">LECHE</string>
+    <string name="leche_valor">265 cal c/100g; 20g Grasas; 0g de HC; 15g Proteínas</string>
+    <string name="pan">PAN</string>
+    <string name="pan_valor">233 cal c/100g; 20g Grasas; 0g de HC; 15g Proteínas</string>
+    <string name="pastas">PASTAS</string>
+    <string name="pastas_valor">373 cal c/100g; 2g Grasas; 82g de HC; 13g Proteínas</string>
+    <string name="pizza">PIZZA</string>
+    <string name="pizza_valor">234 cal c/100g; 2g Grasas; 82g de HC; 13g Proteínas</string>
+    <string name="papas">PAPAS FRITAS</string>
+    <string name="papas_valor">253 cal c/100g; 2g Grasas; 82g de HC; 13g Proteínas</string>
+    <string name="tomate">TOMATE</string>
+    <string name="tomate_valor">14 cal c/100g; 2g Grasas; 82g de HC; 0g Proteínas</string>
+    <string name="uvas">UVAS</string>
+    <string name="uvas_valor">61 cal c/100g; 0g Grasas; 16g de HC; 0g Proteínas</string>
+</resources>
