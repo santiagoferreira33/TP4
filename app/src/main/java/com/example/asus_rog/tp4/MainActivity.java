@@ -1,12 +1,17 @@
 package com.example.asus_rog.tp4;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
 
     Button boton;
     @Override
@@ -48,7 +53,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         boton.setOnClickListener(this);
         boton = (Button) findViewById(R.id.botonUvas);
         boton.setOnClickListener(this);
-
 
     }
 
@@ -95,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(getApplicationContext(), R.string.pastas_valor, Toast.LENGTH_LONG).show();
                 break;
             case R.id.botonPizza:
-                Toast.makeText(getApplicationContext(), R.string.pizza, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), R.string.pizza_valor, Toast.LENGTH_LONG).show();
                 break;
             case R.id.botonPapas:
                 Toast.makeText(getApplicationContext(), R.string.papas_valor, Toast.LENGTH_LONG).show();
@@ -106,6 +110,34 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.botonUvas:
                 Toast.makeText(getApplicationContext(), R.string.uvas_valor, Toast.LENGTH_LONG).show();
                 break;
+        }
+    }
+
+    @Override public boolean onCreateOptionsMenu(Menu mimenu){
+        getMenuInflater().inflate(R.menu.menu_activity, mimenu);
+        return true;
+    }
+
+    @Override public boolean onOptionsItemSelected(MenuItem opcion_menu){
+
+        switch (opcion_menu.getItemId()) {
+            case R.id.actividad1:
+                //LLAMAR A LA ACTIVIDAD 1
+                Intent i = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(i);
+                return true;
+            case R.id.actividad2:
+                //LLAMAR A LA ACTIVIDAD 2                              //Actividad 2.class
+                Intent i2 = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(i2);
+                return true;
+            case R.id.actividad3:
+                //LLAMAR A LA ACTIVIDAD 3                              //Actividad 3.class
+                Intent i3 = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(i3);
+                return true;
+            default:
+                return super.onOptionsItemSelected(opcion_menu);
         }
     }
 }
