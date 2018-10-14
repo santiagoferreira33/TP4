@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 return true;
             case R.id.actividad3:
                 //LLAMAR A LA ACTIVIDAD 3                              //Actividad 3.class
-                Intent i3 = new Intent(MainActivity.this, MainActivity.class);
+                Intent i3 = new Intent(MainActivity.this, Actividad3.class);
                 startActivity(i3);
                 return true;
             default:
