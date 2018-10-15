@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <RelativeLayout
+            android:layout_width="368dp"
+            android:layout_height="495dp">
+
+            <Button
+                android:id="@+id/botonAcelga2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/boton_redondeado"
+                android:drawableLeft="@mipmap/acelga"
+                android:drawableRight="@mipmap/acelga"
+                android:text="@string/acelga" />
+
+            <Button
+                android:id="@+id/botonArroz2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/boton_redondeado"
+                android:drawableLeft="@mipmap/arroz"
+                android:drawableRight="@mipmap/arroz"
+                android:text="@string/arroz" />
+
+            <Button
+                android:id="@+id/botonCalabaza2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/boton_redondeado"
+                android:drawableLeft="@mipmap/calabaza"
+                android:drawableRight="@mipmap/calabaza"
+                android:text="@string/calabaza" />
+
+            <Button
+                android:id="@+id/botonCerdo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/boton_redondeado"
+                android:drawableLeft="@mipmap/cerdo"
+                android:drawableRight="@mipmap/cerdo"
+                android:text="@string/cerdo" />
+
+            <Button
+                android:id="@+id/botonVaca2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/boton_redondeado"
+                android:drawableLeft="@mipmap/vaca"
+                android:drawableRight="@mipmap/vaca"
+                android:text="@string/vaca" />
+
+            <Button
+                android:id="@+id/botonLeche2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/boton_redondeado"
+                android:drawableLeft="@mipmap/leche"
+                android:drawableRight="@mipmap/leche"
+                android:text="@string/leche" />
+
+            <Button
+                android:id="@+id/botonPan2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/boton_redondeado"
+                android:drawableLeft="@mipmap/pan"
+                android:drawableRight="@mipmap/pan"
+                android:text="@string/pan" />
+
+            <Button
+                android:id="@+id/botonPastas2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/boton_redondeado"
+                android:drawableLeft="@mipmap/pastas"
+                android:drawableRight="@mipmap/pastas"
+                android:text="@string/pastas" />
+
+            <Button
+                android:id="@+id/botonPapas2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/boton_redondeado"
+                android:drawableLeft="@mipmap/papas"
+                android:drawableRight="@mipmap/papas"
+                android:text="@string/papas" />
+
+            <Button
+                android:id="@+id/botonTomate2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/boton_redondeado"
+                android:drawableLeft="@mipmap/tomate"
+                android:drawableRight="@mipmap/tomate"
+                android:text="@string/tomate" />
+
+            <Button
+                android:id="@+id/botonUvas2"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/boton_redondeado"
+                android:drawableLeft="@mipmap/uvas"
+                android:drawableRight="@mipmap/uvas"
+                android:text="@string/uvas" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="65dp"
+                app:srcCompat="@drawable/piramide" />
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

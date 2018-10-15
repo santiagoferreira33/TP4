@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 return true;
             case R.id.actividad2:
                 //LLAMAR A LA ACTIVIDAD 2                              //Actividad 2.class
-                Intent i2 = new Intent(MainActivity.this, MainActivity.class);
+                Intent i2 = new Intent(MainActivity.this, Actividad2.class);
                 startActivity(i2);
                 return true;
             case R.id.actividad3:
