@@ -50,20 +50,7 @@
                 android:drawableRight="@mipmap/acelga"
                 android:text="@string/acelga" />
 
-            <Button
-                android:id="@+id/botonArroz2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/boton_redondeado"
-                android:drawableLeft="@mipmap/arroz"
-                android:drawableRight="@mipmap/arroz"
-                android:text="@string/arroz" />
-
-            <Button
+                <Button
                 android:id="@+id/botonCalabaza2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -154,33 +141,33 @@
                 android:drawableRight="@mipmap/papas"
                 android:text="@string/papas" />
 
-            <Button
-                android:id="@+id/botonTomate2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/boton_redondeado"
-                android:drawableLeft="@mipmap/tomate"
-                android:drawableRight="@mipmap/tomate"
-                android:text="@string/tomate" />
+                <Button
+                    android:id="@+id/botonTomate2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/boton_redondeado"
+                    android:drawableLeft="@mipmap/tomate"
+                    android:drawableRight="@mipmap/tomate"
+                    android:text="@string/tomate" />
 
-            <Button
-                android:id="@+id/botonUvas2"
-                android:layout_width="329dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/boton_redondeado"
-                android:drawableLeft="@mipmap/uvas"
-                android:drawableRight="@mipmap/uvas"
-                android:text="@string/uvas" />
+                <Button
+                    android:id="@+id/botonUvas2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/boton_redondeado"
+                    android:drawableLeft="@mipmap/uvas"
+                    android:drawableRight="@mipmap/uvas"
+                    android:text="@string/uvas" />
 
-            <ImageView
+                <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
