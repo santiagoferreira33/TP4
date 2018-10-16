@@ -46,7 +46,7 @@ public class Pagina2 extends AppCompatActivity {
                 return true;
             case R.id.actividad2:
                 //LLAMAR A LA ACTIVIDAD 2                              //Actividad 2.class
-                Intent i2 = new Intent(Pagina2.this, MainActivity.class);
+                Intent i2 = new Intent(Pagina2.this, Actividad2.class);
                 startActivity(i2);
                 return true;
             case R.id.actividad3:

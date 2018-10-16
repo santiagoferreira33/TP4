@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Actividad3" />
+        <activity android:name=".Actividad2" />
         <activity android:name=".Pagina1" />
         <activity android:name=".Pagina2"></activity>
     </application>
